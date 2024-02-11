@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "produto": "Star War: Guerra dos Clones",
+      "descricao": "Uma Guerra que não é no espaço, mas todo o espaço ta envolvido",
+      "foto": "Starwars.jpg",
+      "preco": 290
+    },
+    {
+      "produto": "Star War: O imperio contra ataca",
+      "descricao": "Uma Guerra que não é no espaço, mas todo o espaço ta envolvido",
+      "foto": "",
+      "preco": 2000,
+      "id": "2"
+    },
+    {
+      "id": 0,
+      "produto": "Call Of Duty",
+      "descricao": "Jogo de tiro",
+      "foto": "",
+      "preco": 569.9
+    },
+    {
+      "id": 0,
+      "produto": "MinerCraft",
+      "descricao": "Jogo de Blocos",
+      "foto": "",
+      "preco": 79.8
+    }
+  ]
+}
