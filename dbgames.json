@@ -15,18 +15,11 @@
       "id": "2"
     },
     {
-      "id": 0,
-      "produto": "Call Of Duty",
-      "descricao": "Jogo de tiro",
+      "id": "3",
+      "produto": "Lord of Rings",
+      "descricao": "A game to one ...",
       "foto": "",
-      "preco": 569.9
-    },
-    {
-      "id": 0,
-      "produto": "MinerCraft",
-      "descricao": "Jogo de Blocos",
-      "foto": "",
-      "preco": 79.8
+      "preco": 299.9
     }
   ]
 }

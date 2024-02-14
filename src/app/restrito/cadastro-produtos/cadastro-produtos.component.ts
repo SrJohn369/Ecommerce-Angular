@@ -9,7 +9,7 @@ import { ProdutoService } from 'src/app/produto.service';
   styleUrls: ['./cadastro-produtos.component.css']
 })
 export class CadastroProdutosComponent {
-  public produto: Produto = new Produto(0, "", "", "", 0);
+  public produto: Produto = new Produto("", "", "", "", 0);
 
   constructor(private _produtoService: ProdutoService, private _router: Router){}
 
@@ -18,7 +18,7 @@ export class CadastroProdutosComponent {
   cadastrar(){
     this._produtoService.cadastrarProduto(this.produto).subscribe(
       produto => {
-        this.produto = new Produto(0,"","","",0);
+        this.produto = new Produto("","","","",0);
         alert("Cadastro efetuado com sucesso!");
       },
       err => {
